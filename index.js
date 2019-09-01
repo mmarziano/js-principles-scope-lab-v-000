@@ -4,3 +4,8 @@ var customerName = "bob"
 function customerName() {
   return customerName;
 }
+
+function upperCaseCustomerName() {
+  return customerName.uppercase
+
+}
