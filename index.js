@@ -6,6 +6,7 @@ function customerName() {
 }
 
 function upperCaseCustomerName() {
-  console.log(customerName.toUpperCase());
-
+  return customerName.toUpperCase();
 }
+
+upperCaseCustomerName()
